@@ -170,9 +170,9 @@ namespace NPCSManager {
                 case 0x804f:
                     return '）';
                 case 0x8050:
-                    return '°';
-                case 0x8051:
                     return '^';
+                case 0x8051:
+                    return '°';
                 case 0x8052:
                     return '>';
                 case 0x8053:
@@ -14653,9 +14653,9 @@ namespace NPCSManager {
                     return 0x804E;
                 case '）':
                     return 0x804F;
-                case '°':
-                    return 0x8050;
                 case '^':
+                    return 0x8050;
+                case '°':
                     return 0x8051;
                 case '>':
                     return 0x8052;
