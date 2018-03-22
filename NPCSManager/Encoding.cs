@@ -14483,7 +14483,7 @@ namespace NPCSManager {
 				case 0x810e:
 					return 'ü';
 				case 0x8116:
-					return '/'
+					return '/';
 
 
                 //more
