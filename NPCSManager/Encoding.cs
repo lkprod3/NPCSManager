@@ -154,7 +154,7 @@ namespace NPCSManager {
                 case 0x8047:
                     return '．';
                 case 0x8048:
-                    return '#';
+                    return '＃';
                 case 0x8049:
                     return '％';
                 case 0x804a:
@@ -582,7 +582,7 @@ namespace NPCSManager {
                 case 0x819d:
                     return '￡';
                 case 0x81a0:
-                    return '＃';
+                    return '#';
                 case 0x81a1:
                     return '＆';
                 case 0x81a2:
@@ -14456,6 +14456,8 @@ namespace NPCSManager {
 					return 'ç';
 				case 0x9f29:
 					return 'é';
+				case 0x810a:
+					return 'é';
 				case 0x9f2a:
 					return 'ê';
 				case 0x9f2c:
@@ -14478,6 +14480,10 @@ namespace NPCSManager {
 					return 'ú';
 				case 0x9f3b:
 					return 'û';
+				case 0x810e:
+					return 'ü';
+				case 0x8116:
+					return '/'
 
 
                 //more
@@ -14487,6 +14493,8 @@ namespace NPCSManager {
                     return '}';
                 case 0x8113:
                     return '—';
+				case 0x810D:
+					return '²';
             }
         }
         private static int Encode(char Input) {
@@ -14637,7 +14645,7 @@ namespace NPCSManager {
                     return 0x8046;
                 case '．':
                     return 0x8047;
-                case '#':
+                case '＃':
                     return 0x8048;
                 case '％':
                     return 0x8049;
@@ -15025,7 +15033,7 @@ namespace NPCSManager {
                     return 0x819C;
                 case '￡':
                     return 0x819D;
-                case '＃':
+                case '#':
                     return 0x81A0;
                 case '＆':
                     return 0x81A1;
@@ -28572,7 +28580,7 @@ namespace NPCSManager {
 				case 'ç':
 					return 0x9f27;
 				case 'é':
-					return 0x9f29;
+					return 0x810a;
 				case 'ê':
 					return 0x9f2a;
 				case 'ì':
@@ -28595,8 +28603,14 @@ namespace NPCSManager {
 					return 0x9f3a;
 				case 'û':
 					return 0x9f3b;
+				case 'ü':
+					return 0x810e;
 				case '.':
 					return 0x80c1;
+				case '/':
+					return 0x8116;
+				case '²':
+					return 0x810D;
             }
         }
    }
