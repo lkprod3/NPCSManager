@@ -1,5 +1,5 @@
 # MAGES. Engine Script Manager (NPCSM) - v1.0
-## aka Nitro+ Console Script Manager
+### aka Nitro+ Console Script Manager
 [![Build Status](https://travis-ci.org/ForumHulp/pageaddon.svg?branch=master)](http://vnx.uvnworks.com)
 
 A DLL Library tool made to allow easy modifying of strings in C#, aimed primarily as a means to edit MAGES. engine game scripts.
