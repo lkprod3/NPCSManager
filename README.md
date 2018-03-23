@@ -1,7 +1,8 @@
-## Nitro+ Console Script Manager (NPCSM) - v0.9.6
+# MAGES. Engine Script Manager (NPCSM) - v1.0
+## aka Nitro+ Console Script Manager
 [![Build Status](https://travis-ci.org/ForumHulp/pageaddon.svg?branch=master)](http://vnx.uvnworks.com)
 
-A DLL Library tool made to allow easy modifying of strings in C#, aimed primarily as a means to edit Nitro+/MAGES. game engine scripts.
+A DLL Library tool made to allow easy modifying of strings in C#, aimed primarily as a means to edit MAGES. engine game scripts.
 
 Encoding.cs is mapped mostly for STEINS;GATE 0 (Vita) characters, but can be easily altered to work with other games and scripts.
 
@@ -33,6 +34,6 @@ Closing the tag is not necessary if the color tag is done at the end of the dial
 ### Unknown
 This is a [0x112233...] sample text
 
-[0x??????] \(3 bytes or more of length) = Unknown command, most likely has to do with engine triggers or flags.
+[0x??????] \(3 bytes or more of length) = Unknown command, and most likely has to do with engine triggers or flags.
 
-Don't alter those unless you're absolutely certain of what you're doing.
+Do not alter those unless you're absolutely certain of what you're doing.
