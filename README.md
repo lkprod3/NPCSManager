@@ -1,4 +1,4 @@
-## MAGES. Engine Script Manager v1.0 (aka Nitro+ Console Script Manager (NPCSM))
+## MAGES. Engine Script Manager (NPCSM) v1.0
 ### 
 [![Build Status](https://travis-ci.org/ForumHulp/pageaddon.svg?branch=master)](http://vnx.uvnworks.com)
 
